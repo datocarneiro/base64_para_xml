@@ -1,17 +1,3 @@
-# import base64
-
-# def xml_to_base64(xml_file):
-#     with open(xml_file, "rb") as file:
-#         xml_bytes = file.read()
-#         base64_encoded = base64.b64encode(xml_bytes).decode('utf-8')
-#         return base64_encoded
-
-# # Substitua 'arquivo.xml' pelo caminho do seu arquivo XML
-# caminho_xml = 'D:/Downloads/pastaxml'
-# base64_data = xml_to_base64(caminho_xml)
-# print(base64_data)
-
-
 import base64
 import xml.etree.ElementTree as ET
 
